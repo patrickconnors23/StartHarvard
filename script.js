@@ -11,6 +11,22 @@ $( document ).ready(function() {
 
     $('#about-nav').click(function (event) {
       event.preventDefault();
-      $('#stuff').scrollView();
+      $('#about-nav-section').scrollView();
+    });
+    $('#course-nav').click(function (event) {
+      event.preventDefault();
+      $('#course-nav-section').scrollView();
+    });
+    $('#faq-nav').click(function (event) {
+      event.preventDefault();
+      $('#faq-nav-section').scrollView();
+    });
+    $('#team-nav').click(function (event) {
+      event.preventDefault();
+      $('#team-nav-section').scrollView();
+    });
+    $('#contact-nav').click(function (event) {
+      event.preventDefault();
+      $('#contact-nav-section').scrollView();
     });
 });
