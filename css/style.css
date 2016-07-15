@@ -1,0 +1,23 @@
+/*font-family: 'Anonymous Pro', monospace;
+font-family: 'Poppins', sans-serif;*/
+
+.navbar {
+    background-color: red;
+    border-color: #E7E7E7;
+}
+
+.section {
+  margin-top: 50px;
+}
+
+.container-fluid {
+    background-color: white;
+}
+
+.navbar-nav a{
+  color:red;
+}
+
+.nav.navbar-nav.navbar-right li a {
+    color: blue;
+}
