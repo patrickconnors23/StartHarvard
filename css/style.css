@@ -6,6 +6,27 @@ Blue: #00237E
 Yellow: #FFE292
 Green: #B4EEBD*/
 
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+h1 {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-weight: 700;
+  font-size: 54px;
+}
+
+p {
+  line-height: 250%;
+}
+
+a:hover, a:active, a:visited, a:link {
+  text-decoration: none;
+  color:inherit;
+}
+
 .container-fluid {
     background-color: white;
 }
@@ -34,17 +55,31 @@ Green: #B4EEBD*/
   background-color: white!important;
 }
 
-body,
-html {
-    width: 100%;
-    height: 100%;
+.navbar-nav a{
+  color:red;
 }
-h1 {
-  font-family: 'Poppins', sans-serif;
-  color: white;
-  font-weight: 700;
-  font-size: 54px;
+
+.nav.navbar-nav.navbar-right li a {
+    color: blue;
 }
+
+.section .row p {
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 18px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.section {
+  margin-bottom: 70px;
+  margin-top: 20px;
+}
+
+.section .row h2 {
+  color:#E95041;
+  margin-bottom: 40px;
+}
+
 .navbar {
     background-color: red;
     border-color: #E7E7E7;
@@ -88,10 +123,116 @@ h1 {
     background: #E95041;
     box-shadow: none;
 }
-.navbar-nav a{
-  color:red;
+
+/*Font Awesome*/
+.fa {
+  color:white;
+  margin-bottom: 30px;
+}
+/*Font Awesome*/
+
+/*Course offerings section*/
+
+#ui-ux-section {
+  background-color: #B4EEBD;
+  text-align: center;
 }
 
-.nav.navbar-nav.navbar-right li a {
-    color: blue;
+#ui-ux-section h3 {
+  color: white;
+  margin-bottom: 20px;
 }
+
+#full-stack-section {
+  background-color: #FFE292;
+  text-align: center;
+}
+
+#full-stack-section h3 {
+  color:white;
+  margin-bottom: 20px;
+}
+
+#ios-section {
+  background-color: #00237E;
+  text-align: center;
+}
+
+#ios-section h3 {
+  color:white;
+  margin-bottom: 20px;
+}
+
+.flexbox h3 {
+  font-weight: bold;
+}
+
+.flexbox {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+}
+.flexbox .col-md-4 {
+  flex: 1;
+  padding: 20px;
+  padding-top: 110px;
+  padding-bottom: 110px;
+}
+.flexbox .col-md-4:nth-child(1) {
+  background: #ccc;
+  -webkit-order: 1;
+      -ms-flex-order: 1;
+          order: 1;
+}
+.flexbox .col-md-4:nth-child(2) {
+  background: #eee;
+  -webkit-order: 0;
+      -ms-flex-order: 0;
+          order: 0;
+}
+.flexbox .col-md-4:nth-child(3) {
+  background: #eee;
+  -webkit-order: 2;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+body {
+  padding: 20px;
+}
+/*Course offerings section*/
+
+/*FAQ Section*/
+#faq-nav-section {
+  color: #00237E;
+  margin-top: -40px;
+}
+#faq-nav-section h2{
+  color: #00237E;
+}
+
+#faq-nav-section a {
+  color:#00237E;
+}
+
+.answer {
+  display: none;
+}
+
+.answer {
+  color: #E95041;
+}
+/*FAQ Section*/
+
+/*Team Nav Section*/
+#team-nav-section {
+  background-color:#E95041;
+  text-align: center;
+  color: white;
+}
+
+#team-nav-section h2 {
+  color: white;
+}
+/*Team Nav Section*/
