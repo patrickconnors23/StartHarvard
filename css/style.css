@@ -230,9 +230,29 @@ body {
   background-color:#E95041;
   text-align: center;
   color: white;
+  margin-bottom: 0px;
 }
 
 #team-nav-section h2 {
   color: white;
 }
+
+#team-nav-section p {
+  line-height: 100%;
+}
 /*Team Nav Section*/
+
+
+/*Contact Nav Section*/
+#contact-nav-section {
+  text-align: center;
+  background-color:white;
+  color:#00237E;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-weight: bold;
+  font-size: 20px;
+}
+/*Contact Nav Section*/
