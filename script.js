@@ -1,61 +1,74 @@
-$.fn.scrollView = function () {
+$.fn.scrollView = function (add) {
   return this.each(function () {
     $('html, body').animate({
-      scrollTop: $(this).offset().top - 70
+      scrollTop: $(this).offset().top - 70 + add
     }, 500);
   });
 }
 
+function bootstrap_equalizer() {
+  $(".equalizer").each(function() {
+    var heights = $(this).find(".watch").map(function() {
+      return $(this).height();
+    }).get(),
+
+    maxHeight = Math.max.apply(null, heights);
+
+    $(".watch").height(maxHeight);
+  });
+}
+
 $( document ).ready(function() {
+    bootstrap_equalizer();
     //Menu scrolling
     $('#about-nav').click(function (event) {
       event.preventDefault();
-      $('#about-nav-section').scrollView();
+      $('#about-nav-section').scrollView(0);
     });
     $('#about-nav2').click(function (event) {
       event.preventDefault();
-      $('#about-nav-section').scrollView();
+      $('#about-nav-section').scrollView(0);
     });
     $('#course-nav').click(function (event) {
       event.preventDefault();
-      $('#course-nav-section').scrollView();
+      $('#course-nav-section').scrollView(30);
     });
     $('#course-nav2').click(function (event) {
       event.preventDefault();
-      $('#course-nav-section').scrollView();
+      $('#course-nav-section').scrollView(30);
     });
     $('#faq-nav').click(function (event) {
       event.preventDefault();
-      $('#faq-nav-section').scrollView();
+      $('#faq-nav-section').scrollView(0);
     });
     $('#faq-nav2').click(function (event) {
       event.preventDefault();
-      $('#faq-nav-section').scrollView();
+      $('#faq-nav-section').scrollView(0);
     });
     $('#team-nav').click(function (event) {
       event.preventDefault();
-      $('#team-nav-section').scrollView();
+      $('#team-nav-section').scrollView(0);
     });
     $('#team-nav2').click(function (event) {
       event.preventDefault();
-      $('#team-nav-section').scrollView();
+      $('#team-nav-section').scrollView(0);
     });
     $('#contact-nav').click(function (event) {
       event.preventDefault();
-      $('#contact-nav-section').scrollView();
+      $('#contact-nav-section').scrollView(0);
     });
     $('#contact-nav2').click(function (event) {
       event.preventDefault();
-      $('#contact-nav-section').scrollView();
+      $('#contact-nav-section').scrollView(0);
     });
 
     //Course Section
-    $('#full-stack-section').click(function(event){
-      event.preventDefault();
-      $('#full-stack-section').html('<p>Test</p>');
-      $(this).removeClass('hvr-grow');
-      console.log('hello');
-    });
+    // $('#full-stack-section').click(function(event){
+    //   event.preventDefault();
+    //   $('#full-stack-section').html('<p>Test</p>');
+    //   $(this).removeClass('hvr-grow');
+    //   console.log('hello');
+    // });
 
     //FAQ Section
     $('#cost-question').click(function(event){

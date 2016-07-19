@@ -27,6 +27,12 @@ a:hover, a:active, a:visited, a:link {
   color:inherit;
 }
 
+hr {
+  color:#00237E;
+  background-color: #00237E;
+  height: 3px;
+}
+
 .container-fluid {
     background-color: white;
 }
@@ -144,6 +150,9 @@ a:hover, a:active, a:visited, a:link {
   color:white;
   margin-bottom: 30px;
 }
+.fa-code {
+  color:#B4EEBD;
+}
 /*Font Awesome*/
 
 /*About Section*//*About Section*//*About Section*//*About Section*/
@@ -154,20 +163,40 @@ a:hover, a:active, a:visited, a:link {
   font-weight: bold;
   color: #E95041;
 }
+
+.header-space-below {
+  margin-top: -40px;
+  margin-bottom: 40px;
+}
 /*About Section*//*About Section*//*About Section*//*About Section*/
 
 /*Course offerings section*/
-
+.watch {
+  padding-top:110px;
+  padding-bottom: 110px;
+}
+.watch h3 {
+  font-weight: bold;
+}
 .course-head {
-  margin-top: -40px;
+  margin-top: -90px;
+  margin-bottom: 20px;
   padding-top: 0px;
+  text-align: center;
+}
+.course-head h2 {
+  color:#E95041
 }
 #course-nav-section h2 {
   font-weight: bold;
+  color:#00237E;
 }
 #ui-ux-section {
-  background-color: #B4EEBD;
+  background-color: #00237E;
   text-align: center;
+  border-bottom-color:#00237E;
+  border-bottom-width: 6px;
+  border-bottom-style: solid;
 }
 
 #ui-ux-section h3 {
@@ -176,62 +205,26 @@ a:hover, a:active, a:visited, a:link {
 }
 
 #full-stack-section {
-  background-color: #FFE292;
+  background-color: white;/*#FFE292*/
   text-align: center;
 }
 
 #full-stack-section h3 {
-  color:white;
+  color:#00237E;/*white*/
   margin-bottom: 20px;
 }
 
 #ios-section {
-  background-color: #00237E;
+  background-color: #B4EEBD;
   text-align: center;
+  border-bottom-color:#B4EEBD;
+  border-bottom-width: 6px;
+  border-bottom-style: solid;
 }
 
 #ios-section h3 {
   color:white;
   margin-bottom: 20px;
-}
-
-.flexbox h3 {
-  font-weight: bold;
-}
-
-.flexbox {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  overflow: hidden;
-}
-.flexbox .col-md-4 {
-  flex: 1;
-  padding: 20px;
-  padding-top: 110px;
-  padding-bottom: 110px;
-}
-.flexbox .col-md-4:nth-child(1) {
-  background: #ccc;
-  -webkit-order: 1;
-      -ms-flex-order: 1;
-          order: 1;
-}
-.flexbox .col-md-4:nth-child(2) {
-  background: #eee;
-  -webkit-order: 0;
-      -ms-flex-order: 0;
-          order: 0;
-}
-.flexbox .col-md-4:nth-child(3) {
-  background: #eee;
-  -webkit-order: 2;
-      -ms-flex-order: 2;
-          order: 2;
-}
-
-body {
-  padding: 20px;
 }
 /*Course offerings section*/
 
