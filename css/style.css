@@ -69,6 +69,13 @@ a:hover, a:active, a:visited, a:link {
     background-color: red;
     border-color: #E7E7E7;
 }
+.navbar-brand {
+  margin-bottom: 20px;
+}
+.navbar-toggle {
+  margin-bottom: 0px;
+  margin-top: 18px;
+}
 /*NAVBAR*//*NAVBAR*//*NAVBAR*//*NAVBAR*//*NAVBAR*//*NAVBAR*//*NAVBAR*/
 
 .section .row p {
