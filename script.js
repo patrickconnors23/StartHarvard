@@ -12,7 +12,15 @@ $( document ).ready(function() {
       event.preventDefault();
       $('#about-nav-section').scrollView();
     });
+    $('#about-nav2').click(function (event) {
+      event.preventDefault();
+      $('#about-nav-section').scrollView();
+    });
     $('#course-nav').click(function (event) {
+      event.preventDefault();
+      $('#course-nav-section').scrollView();
+    });
+    $('#course-nav2').click(function (event) {
       event.preventDefault();
       $('#course-nav-section').scrollView();
     });
@@ -20,11 +28,23 @@ $( document ).ready(function() {
       event.preventDefault();
       $('#faq-nav-section').scrollView();
     });
+    $('#faq-nav2').click(function (event) {
+      event.preventDefault();
+      $('#faq-nav-section').scrollView();
+    });
     $('#team-nav').click(function (event) {
       event.preventDefault();
       $('#team-nav-section').scrollView();
     });
+    $('#team-nav2').click(function (event) {
+      event.preventDefault();
+      $('#team-nav-section').scrollView();
+    });
     $('#contact-nav').click(function (event) {
+      event.preventDefault();
+      $('#contact-nav-section').scrollView();
+    });
+    $('#contact-nav2').click(function (event) {
       event.preventDefault();
       $('#contact-nav-section').scrollView();
     });

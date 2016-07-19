@@ -5,7 +5,7 @@ Red: #E95041
 Blue: #00237E
 Yellow: #FFE292
 Green: #B4EEBD*/
-
+/*General*//*General*//*General*//*General*//*General*//*General*/
 body,
 html {
     width: 100%;
@@ -30,7 +30,9 @@ a:hover, a:active, a:visited, a:link {
 .container-fluid {
     background-color: white;
 }
+/*General*//*General*//*General*//*General*//*General*//*General*/
 
+/*NAVBAR*//*NAVBAR*//*NAVBAR*//*NAVBAR*//*NAVBAR*//*NAVBAR*//*NAVBAR*/
 .custom-nav a{
   color:#E95041!important;
   font-family: 'Poppins', sans-serif;
@@ -63,6 +65,12 @@ a:hover, a:active, a:visited, a:link {
     color: blue;
 }
 
+.navbar {
+    background-color: red;
+    border-color: #E7E7E7;
+}
+/*NAVBAR*//*NAVBAR*//*NAVBAR*//*NAVBAR*//*NAVBAR*//*NAVBAR*//*NAVBAR*/
+
 .section .row p {
   font-family: 'Anonymous Pro', monospace;
   font-size: 18px;
@@ -80,11 +88,7 @@ a:hover, a:active, a:visited, a:link {
   margin-bottom: 40px;
 }
 
-.navbar {
-    background-color: red;
-    border-color: #E7E7E7;
-}
-
+/*Splash Page*//*Splash Page*//*Splash Page*//*Splash Page*//*Splash Page*/
 .intro-header {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -101,6 +105,9 @@ a:hover, a:active, a:visited, a:link {
 #intro-button{
   margin-top: 40px;
 }
+/*Splash Page*//*Splash Page*//*Splash Page*//*Splash Page*//*Splash Page*/
+
+/*button*//*button*//*button*//*button*//*button*//*button*//*button*/
 .btn {
   padding: 20px 40px 20px 40px;
   border: 0 none;
@@ -123,6 +130,7 @@ a:hover, a:active, a:visited, a:link {
     background: #E95041;
     box-shadow: none;
 }
+/*button*//*button*//*button*//*button*//*button*//*button*//*button*/
 
 /*Font Awesome*/
 .fa {
@@ -131,8 +139,22 @@ a:hover, a:active, a:visited, a:link {
 }
 /*Font Awesome*/
 
+/*About Section*//*About Section*//*About Section*//*About Section*/
+#about-nav-section p {
+  color:#00237E;
+}
+#about-nav-section h2{
+  font-weight: bold;
+  color: #E95041;
+}
+/*About Section*//*About Section*//*About Section*//*About Section*/
+
 /*Course offerings section*/
 
+.course-head {
+  margin-top: -40px;
+  padding-top: 0px;
+}
 #ui-ux-section {
   background-color: #B4EEBD;
   text-align: center;
@@ -227,14 +249,18 @@ body {
 
 /*Team Nav Section*/
 #team-nav-section {
-  background-color:#E95041;
+  background-color:#00237E;
   text-align: center;
   color: white;
   margin-bottom: 0px;
+  padding-bottom: 15px;
 }
 
 #team-nav-section h2 {
   color: white;
+  font-size: 40px;
+  margin-bottom: -5px;
+  font-weight: bold;
 }
 
 #team-nav-section p {
@@ -250,9 +276,39 @@ body {
   color:#00237E;
   margin-bottom: 0px;
   margin-top: 0px;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  font-weight: bold;
+  padding-top: 15px;
+  padding-bottom: 50px;
   font-size: 20px;
 }
+#contact-nav-section h2 {
+  color: #E95041;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#contact-nav-section p {
+  color: black;
+}
+#contact-nav-section a {
+  color: #2A5DB0;
+}
 /*Contact Nav Section*/
+
+/*Footer*/
+footer {
+  text-align: center;
+  background-color: #F1F1F1;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+footer h3 {
+  font-size: 15px;
+  color:#999999;
+  font-weight: lighter;
+}
+
+.Copyright {
+  margin-top: 50px;
+}
+/*Footer*/
