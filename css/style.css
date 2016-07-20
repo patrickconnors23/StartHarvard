@@ -15,34 +15,37 @@ h1 {
   font-family: 'Poppins', sans-serif;
   color: white;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 64px;
 }
+
 h2 {
   font-family: 'Poppins', sans-serif !important;
   color: #E95041 !important;
   font-weight: 500 !important;
-  font-size: 30px !important;
+  font-size: 3.13em !important;
+  @media (min-width: @screen-md-min) {
+    font-size: 2.35em;
+  }
 }
 h3 {
   font-family: 'Poppins', sans-serif !important;
-  color: white !important;
-  font-weight: 700 !important;
-  font-size: 2.35em !important;
-  @media (min-width: @screen-md-min) {
-    font-size: 1.769em;
-  }
+  color: white ;
+  font-weight: 500;
+  font-size: 28px;
 }
 h4{
-  font-size: 1.769em !important;
-  @media (min-width: @screen-md-min) {
-    font-size: 1.33em;
-  }
+  font-family: 'Anonymous Pro', monospace !important;
+  line-height: 150%;
+  font-size: 18px;
+  color: white;
+}
+h4 a, h4 a:active, h4 a:visited, h4 a:hover {
+    text-decoration:none;
+    color:red;
 }
 p {
   font-family: 'Anonymous Pro', monospace !important;
-  @media (min-width: @screen-md-min) {
-    font-size: 18px !important;
-  }
+  line-height: 150%;
 }
 
 a:hover, a:active, a:visited, a:link {
@@ -133,7 +136,10 @@ hr {
   padding-top: 5%;
   padding-bottom: 20%;
 }
-
+.subheader-text{
+  position: relative;
+  margin-top: 3%;
+}
 #intro-button{
   margin-top: 40px;
 }
@@ -315,7 +321,9 @@ hr {
   color: #2A5DB0;
 }
 /*Contact Nav Section*/
-
+.foot {
+  margin-top: 2%;
+}
 /*Footer*/
 footer {
   text-align: center;
@@ -334,3 +342,20 @@ footer h3 {
   margin-top: 50px;
 }
 /*Footer*/
+@media (max-width: 768px) {
+  .intro-text > h1 {font-size: 48px;}
+  .subheader-text > h3 {font-size: 24px;}
+  .foot >h4 {
+    font-size: 14px;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  #about-nav-section {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  #faq-nav-section {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
