@@ -15,11 +15,34 @@ h1 {
   font-family: 'Poppins', sans-serif;
   color: white;
   font-weight: 700;
-  font-size: 54px;
+  font-size: 36px;
 }
-
+h2 {
+  font-family: 'Poppins', sans-serif !important;
+  color: #E95041 !important;
+  font-weight: 500 !important;
+  font-size: 30px !important;
+}
+h3 {
+  font-family: 'Poppins', sans-serif !important;
+  color: white !important;
+  font-weight: 700 !important;
+  font-size: 2.35em !important;
+  @media (min-width: @screen-md-min) {
+    font-size: 1.769em;
+  }
+}
+h4{
+  font-size: 1.769em !important;
+  @media (min-width: @screen-md-min) {
+    font-size: 1.33em;
+  }
+}
 p {
-  line-height: 250%;
+  font-family: 'Anonymous Pro', monospace !important;
+  @media (min-width: @screen-md-min) {
+    font-size: 18px !important;
+  }
 }
 
 a:hover, a:active, a:visited, a:link {
@@ -96,10 +119,6 @@ hr {
   margin-top: 20px;
 }
 
-.section .row h2 {
-  color:#E95041;
-  margin-bottom: 40px;
-}
 
 /*Splash Page*//*Splash Page*//*Splash Page*//*Splash Page*//*Splash Page*/
 .intro-header {
