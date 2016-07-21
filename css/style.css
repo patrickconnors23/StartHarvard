@@ -10,6 +10,8 @@ body,
 html {
     width: 100%;
     height: 100%;
+    margin: 0px;
+    overflow-x: 0%;
 }
 h1 {
   font-family: 'Poppins', sans-serif;
@@ -61,6 +63,8 @@ hr {
 
 .container-fluid {
     background-color: white;
+    padding: 0px;
+    margin: 0px;
 }
 /*General*//*General*//*General*//*General*//*General*//*General*/
 

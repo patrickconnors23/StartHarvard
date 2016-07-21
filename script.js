@@ -21,6 +21,14 @@ function bootstrap_equalizer() {
 $( document ).ready(function() {
     bootstrap_equalizer();
     //Menu scrolling
+    $('#navbar-button').click(function (event) {
+      event.preventDefault();
+      $('#intro-header-id').scrollView(0);
+    });
+    $('#navbar-button').click(function (event) {
+      event.preventDefault();
+      $('#intro-header-id').scrollView(0);
+    });
     $('#about-nav').click(function (event) {
       event.preventDefault();
       $('#about-nav-section').scrollView(0);
