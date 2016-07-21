@@ -3,6 +3,7 @@ $.fn.scrollView = function (add) {
     $('html, body').animate({
       scrollTop: $(this).offset().top - 70 + add
     }, 500);
+    console.log('hello123');
   });
 }
 
@@ -24,6 +25,7 @@ $( document ).ready(function() {
     $('#navbar-button').click(function (event) {
       event.preventDefault();
       $('#intro-header-id').scrollView(0);
+      console.log("hello");
     });
     $('#navbar-button').click(function (event) {
       event.preventDefault();
