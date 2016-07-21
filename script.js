@@ -69,46 +69,78 @@ $( document ).ready(function() {
     //   $(this).removeClass('hvr-grow');
     //   console.log('hello');
     // });
-
+    var cost = false;;
+    var benefit = false;;
+    var time = false;;
+    var different = false;;
+    var teacher =false;;
+    function hider () {
+      $('#cost-answer').hide();
+      $('#benefit-answer').hide();
+      $('#time-answer').hide();
+      $('#different-answer').hide();
+      $('#teacher-answer').hide();
+    }
     //FAQ Section
     $('#cost-question').click(function(event){
       event.preventDefault();
-      $('#cost-answer').slideDown(200);
-      $('#benefit-answer').hide();
-      $('#time-answer').hide();
-      $('#different-answer').hide();
-      $('#teacher-answer').hide();
+      if(cost == false) {
+        hider();
+        $('#cost-answer').slideDown(200);
+        cost = true;
+      }
+      else {
+        hider();
+        cost=false;
+      }
+
     });
     $('#benefit-question').click(function(event){
       event.preventDefault();
-      $('#cost-answer').hide();
-      $('#benefit-answer').slideDown(200);
-      $('#time-answer').hide();
-      $('#different-answer').hide();
-      $('#teacher-answer').hide();
+      if(benefit == false) {
+        hider();
+        $('#benefit-answer').slideDown(200);
+        benefit = true;
+      }
+      else {
+        hider();
+        benefit=false;
+      }
     });
     $('#time-question').click(function(event){
       event.preventDefault();
-      $('#cost-answer').hide();
-      $('#benefit-answer').hide();
-      $('#time-answer').slideDown(200);
-      $('#different-answer').hide();
-      $('#teacher-answer').hide();
+      if(time == false) {
+        hider();
+        $('#time-answer').slideDown(200);
+        time = true;
+      }
+      else {
+        hider();
+        time=false;
+      }
     });
     $('#different-question').click(function(event){
       event.preventDefault();
-      $('#cost-answer').hide();
-      $('#benefit-answer').hide();
-      $('#time-answer').hide();
-      $('#different-answer').slideDown(200);
-      $('#teacher-answer').hide();
+      if(different == false) {
+        hider();
+        $('#different-answer').slideDown(200);
+        different = true;
+      }
+      else {
+        hider();
+        different=false;
+      }
     });
     $('#teacher-question').click(function(event){
       event.preventDefault();
-      $('#cost-answer').slideUp(1);
-      $('#benefit-answer').slideUp(1);
-      $('#time-answer').slideUp(1);
-      $('#different-answer').slideUp(1);
-      $('#teacher-answer').slideDown(200);
+      if(teacher == false) {
+        hider();
+        $('#teacher-answer').slideDown(200);
+        teacher = true;
+      }
+      else {
+        hider();
+        teacher=false;
+      }
     });
 });
