@@ -374,14 +374,14 @@ footer h3 {
     margin-right: 5%;
   }
 }
-#mc_embed_signup{
+/*#mc_embed_signup{
   background:#00237E;
   font:14px Helvetica,Arial,sans-serif;
   text-align: center;
   margin: auto;
   width:20%;
   padding-top: 1%;
-}
+}*/
 input.button {
   display: block;
   background: #E95041;
@@ -394,10 +394,56 @@ input.button {
   font-size: 32px;
   padding: 10px 20px 10px 20px;
 }
-input.email {
+/*input.email {
   display: block;
   background: #00237E;
   border: 0 none;
   font-size: 24px;
   text-align: center;
+}*/
+
+/*Mail Chimp*?/*Mail Chimp*?/*Mail Chimp*?/*Mail Chimp*/
+#mc_embed_signup{
+  background-color: white;
+  text-align: center;
+  align-items: center;
+  width: inherit;
+  margin:0 auto;
+  padding: 0px;
 }
+#mc_embed_signup.email{
+  background-color: white;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+#mc-embedded-subscribe-form {
+  text-align: center;
+  align-items: center;
+  margin: 0px;
+  padding: 30px;
+  background-color: white;
+}
+#mail_chimp_wrapper h2{
+  color: #E95041!important;
+  font-size: 30px!important;
+  margin-top: 10px;
+  margin-bottom: -25px;
+}
+#mce-EMAIL {
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 20px;
+  margin-bottom: 30px;
+}
+#mc-embedded-subscribe {
+  padding: 10px 20px 10px 20px;
+  border: 0 none;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  border-radius: 0;
+  background: #E95041;
+  color: #ffffff;
+}
+/*Mail Chimp*?/*Mail Chimp*?/*Mail Chimp*?/*Mail Chimp*/

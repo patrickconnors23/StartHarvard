@@ -5,6 +5,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Start@Harvard</title>
+
+	<!-- MailChimp -->
+	<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+	<style type="text/css">
+		#mc_embed_signup{background:#fff; font:14px Helvetica,Arial,sans-serif; width:100%;}
+		/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+		   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+	</style>
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Anonymous+Pro|Poppins" rel="stylesheet">
 
@@ -20,15 +29,16 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
 
 	<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-80925281-1', 'auto');
-  ga('send', 'pageview');
+	  ga('create', 'UA-80925281-1', 'auto');
+	  ga('send', 'pageview');
 
-</script>
+	</script>
+
 	<script src="script.js"></script>
 	<link rel="stylesheet" href="css/style.css"/>
 	<link href="css/demo-page.css" rel="stylesheet" media="all">
@@ -38,28 +48,6 @@
 </head>
 
 <body>
-	<!-- <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-	  <div class="container-fluid">
-	    <div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
-	      <a class="navbar-brand" href="#">Start@Harvard</a>
-	    </div>
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav pull-right">
-						<li class="hvr-underline-from-center custom-nav hvr-custom"><a href="#about" id="about-nav">About</a></li>
-			      <li class="hvr-underline-from-center custom-nav hvr-custom"><a href="#courses" id="course-nav">Courses</a></li>
-			      <li class="hvr-underline-from-center custom-nav hvr-custom"><a href="#faq" id="faq-nav">FAQ</a></li>
-			      <li class="hvr-underline-from-center custom-nav hvr-custom"><a href="#team" id="team-nav">Team</a></li>
-						<li class="hvr-underline-from-center custom-nav hvr-custom"><a href="#contact" id="contact-nav">Contact</a></li>
-		    </ul>
-			</div>
-	  </div>
-	</nav> -->
 	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 	  <div class="container-fluid">
 	    <div class="navbar-header">
@@ -90,9 +78,33 @@
 							<h3>Skill based courses to help Harvard students <br> create or contribute to startups</h3>
 							</div>
 							<div id="intro-button">
-							<a href="http://goo.gl/forms/xkingocNCwX6Zun23">
-								<button type="button" class="btn btn-primary btn-lg">Get Notified</button>
-							</a>
+							<!-- <a href="http://goo.gl/forms/xkingocNCwX6Zun23"> </a>-->
+								<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Get Notified</button>
+							</div>
+							<div id="myModal" class="modal fade" role="dialog">
+							  <div class="modal-dialog">
+
+							    <!-- Modal content-->
+							    <div class="modal-content">
+							      <div class="modal-body">
+											<div class="row">
+												<button type="button" class="close" data-dismiss="modal">&times;</button>
+											</div>
+											<div id="mail_chimp_wrapper" class="row">
+												<h2>Get Notified</h2>
+												<div id="mc_embed_signup" >
+													<form action="//hbeta.us12.list-manage.com/subscribe/post?u=404ac36f0daba93acbc5e46c2&amp;id=6a6730c9c3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+														<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email@example.com" required>
+													    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+													    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_404ac36f0daba93acbc5e46c2_6a6730c9c3" tabindex="-1" value=""></div>
+													    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" ></div>
+													</form>
+												</div>
+											</div>
+							      </div>
+							    </div>
+
+							  </div>
 							</div>
 						</div>
 					</div>
