@@ -374,3 +374,30 @@ footer h3 {
     margin-right: 5%;
   }
 }
+#mc_embed_signup{
+  background:#00237E;
+  font:14px Helvetica,Arial,sans-serif;
+  text-align: center;
+  margin: auto;
+  width:20%;
+  padding-top: 1%;
+}
+input.button {
+  display: block;
+  background: #E95041;
+  color: #ffffff;
+  border-radius: none;
+  text-align: center;
+  border: 0 none;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  padding: 10px 20px 10px 20px;
+}
+input.email {
+  display: block;
+  background: #00237E;
+  border: 0 none;
+  font-size: 24px;
+  text-align: center;
+}
