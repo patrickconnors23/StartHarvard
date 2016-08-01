@@ -292,8 +292,8 @@ hr {
 
 /*Team Nav Section*/
 #team-nav-section {
-  background-color:#00237E;
-  text-align: center;
+  background-color:#F0F0F0;
+  text-align: left;
   color: white;
   margin-bottom: 0px;
   padding-bottom: 15px;
@@ -308,6 +308,23 @@ hr {
 
 #team-nav-section p {
   line-height: 100%;
+}
+
+#team-nav-section h4 {
+  color:black;
+}
+
+.designed {
+  color: #4A4A4A!important;
+}
+
+#interest-email {
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+#designed-by {
+  margin-bottom: 40px;
 }
 /*Team Nav Section*/
 
